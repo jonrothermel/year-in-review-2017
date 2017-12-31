@@ -30,14 +30,14 @@
 .month-header {
 	font-weight: bold;
 	color: rgb(24, 165, 125);
+	min-width: 150px;
 }
 .row {
-	padding-right: 5rem;
-	padding-left: 5rem;
-	padding-bottom: 2rem;
+	max-width: 80%;
+	align-content: center;
+	margin: auto;
 }
 .col {
-	margin-right: 4rem;
 }
 @media only screen and (max-width: 800px) {
     .paragraph {
@@ -45,6 +45,12 @@
 	padding-right: 5rem;
 	padding-left: 5rem;
 	margin-bottom: 2rem;
+    }
+}
+@media only screen and (max-width: 980px) {
+	.col {
+		min-width: 100%;
+	}
     }
 }
 @media only screen and (max-width: 500px) {
@@ -67,9 +73,10 @@
 }
 .footer-div {
 	margin: auto;
+	margin-top: 2rem;
 	max-height: 100px;
 	max-width: 120px;
 	padding: 1rem;
 	background-color: rgb(24, 165, 125);
-	border-radius: 5px;
+	border-radius: 30px;
 }
