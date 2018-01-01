@@ -132,3 +132,9 @@ img {
 iframe {
 	min-width: 100%;
 }
+a {
+	color: rgb(24, 165, 125);
+}
+a:hover {
+	color: rgb(14, 96, 73);
+}
