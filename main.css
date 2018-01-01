@@ -38,6 +38,7 @@
 	margin: auto;
 }
 .col {
+	padding-top: 3rem;
 }
 @media only screen and (max-width: 800px) {
     .paragraph {
@@ -50,6 +51,7 @@
 @media only screen and (max-width: 980px) {
 	.col {
 		min-width: 100%;
+		padding-top: 3rem;
 	}
     }
 }
@@ -68,8 +70,8 @@
 	text-align: center;
 }
 .footer-link:hover {
-	color: white;
-	text-decoration: underline;
+	color: rgb(24, 165, 125);
+	text-decoration: none;
 }
 .footer-div {
 	margin: auto;
@@ -79,4 +81,19 @@
 	padding: 1rem;
 	background-color: rgb(24, 165, 125);
 	border-radius: 30px;
+}
+.footer-div:hover {
+	margin: auto;
+	margin-top: 2rem;
+	max-height: 100px;
+	max-width: 120px;
+	padding: 1rem;
+	background-color: rgb(170, 239, 219);
+	border-radius: 30px;
+	transition-duration: .5s;
+}
+img {
+	max-width: 200px;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
