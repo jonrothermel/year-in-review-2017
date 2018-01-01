@@ -1,3 +1,6 @@
+body {
+	background-color: #f7f7f7;
+}
 .jumbotron {
 	background-color: rgb(24, 165, 125);
 	padding: 0px;
@@ -23,15 +26,17 @@
 	padding-right: 15rem;
 	padding-left: 15rem;
 	margin-bottom: 2rem;
+	text-align: justify;
 }
 .paragraph-2 {
 	color: #3d3d3d;
+	text-align: justify;
 }
 .caption {
-	font-size: 10px;
+	font-size: 11px;
 	color: gray;
 	font-style: italic;
-	max-width: 250px;
+	max-width: 100%;
 }
 .month-header {
 	font-weight: bold;
@@ -45,12 +50,15 @@
 	color: #343a40;
 }
 .row {
-	max-width: 80%;
+	max-width: 90%;
 	align-content: center;
 	margin: auto;
 }
 .col {
 	padding-top: 3rem;
+/*	border: solid rgb(24, 165, 125) 1px;
+	border-radius: 2px;
+	margin: 5px;*/
 }
 @media only screen and (max-width: 800px) {
     .paragraph {
@@ -105,7 +113,7 @@
 	transition-duration: .5s;
 }
 img {
-	max-width: 250px;
+	max-width: 100%;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 }
@@ -114,4 +122,13 @@ img {
 }
 .btn {
 	margin-bottom: 2rem;
+}
+.bottom-border {
+	width: 100%;
+	height: 5px;
+	background-color: lightgray;
+	margin-top: 2rem;
+}
+iframe {
+	min-width: 100%;
 }
